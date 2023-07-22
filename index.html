@@ -5,6 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=, initial-scale=1.0">
         <title>Document</title>
+        <style>
+            .merah{
+                background-color: red;
+            }
+
+            
+        </style>
     </head>
     <body>
         <h1 align="center">pertemuan 1</h1>
@@ -17,23 +24,23 @@
     
         
         <!-- justify untuk rata kiri kanan -->
-       <h1>judul</h1>
-       <h2>judul</h2>
-       <h3>judul</h3>
-       <h4>judul</h4>
-       <h5>judul</h5>
-       <h6>judul</h6>
+        <h1>judul</h1>
+        <h2>judul</h2>
+        <h3>judul</h3>
+        <h4>judul</h4>
+        <h5>judul</h5>
+        <h6>judul</h6>
         
-       <h1 align="center"><b><i>contoh contoh</i></b></h1>
-       <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, aliquam.</i><br>
-       <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatibus.</b><br>
-       <ins>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, sit?</ins><br>
-       <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, sit!</strong><br>
-       <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nisi.</del><br>
+        <h1 align="center"><b><i>contoh contoh</i></b></h1>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, aliquam.</i><br>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatibus.</b><br>
+        <ins>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, sit?</ins><br>
+        <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, sit!</strong><br>
+        <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nisi.</del><br>
 
-       <!-- fto dari internet -->
-       <center>
-       <img src="https://cdn.oneesports.id/cdn-data/sites/2/2022/03/Naruto-Uzumaki.jpg" alt="naruto" style="height: 600px;"></center>
+        <!-- fto dari internet -->
+        <center>
+        <img src="https://cdn.oneesports.id/cdn-data/sites/2/2022/03/Naruto-Uzumaki.jpg" alt="naruto" style="height: 600px;"></center>
         <!-- fto dri file lokal -->
         <img src="stiker.png" alt="stiker gemoy">
 
@@ -91,7 +98,7 @@
 
         <h4>huruf kecil</h4>
             <ol type="a"> 
-            <li>satu</li>z
+            <li>satu</li>
             <li>dua</li>
             <li>tiga</li>
             <li>empat</li>
@@ -141,7 +148,7 @@
         <!-- td itu kolom -->
         <!-- th untuk tukisan tabel yang tebal -->
 
-        <h1>ROSPAN DAN COLSPAN</h1>
+        <h4>ROSPAN DAN COLSPAN</h4>
         <table border="1">
             <tr>
                 <th colspan="2">Nama</th>
@@ -161,7 +168,87 @@
                 <td>aaa</td>
                 <td>aaa</td>
             </tr>
+            </table>
+            
+            
+    <!-- PERTEMUAN KE 2 -->
 
-        </table>
+    <h1>TABLE</h1>
+    <table border="1" cellpadding="20">
+        <!-- callpading untuk memberi jarak teks di dlm kolom -->
+<tr class="merah">
+<th rowspan="2">NO</th>
+<th rowspan="2">FOTO</th>
+<th colspan="2">NAMA</th>
+<th rowspan="2">UMUR</th>
+<th colspan="2">SOSMED</th>
+</tr>
+<tr>
+    <th>DEPAN</th>
+    <th>BELAKANG</th>
+    <th>FB</th>
+    <th>IG</th>
+</tr>
+<tr>
+    <td>l</td>
+    <td><img src="https://i.pinimg.com/originals/ec/a8/8a/eca88a517a3352aac46b824c4f7b6dd7.jpg" alt="ana" height="300" width="200"></td>
+    <td>galbi</td>
+    <td>nadifah</td>
+    <td>20</td>
+    <td><a href="">klik</a></td>
+    <td><a href="">klik</a></td>
+</tr>
+<tr>
+    <td>2</td>
+    <td> <img src="https://static.wikia.nocookie.net/disney/images/9/95/Profile_-_Elsa.jpeg/revision/latest?cb=20200319054311" alt="elsa" height="300" width="200"></td>
+    <td>nadifah</td>
+    <td>galbi</td>
+    <td>19</td>
+    <td> <a href="">klik</a></td>
+    <td> <a href="">klik</a></td>  
+</tr>
+</table>
+
+        <!-- tr itu baris -->
+        <!-- td itu kolom -->
+        <!-- th untuk tukisan tabel yang tebal -->
+
+<h4> TAG FORM</h4>
+<form action="index.html">
+    <div>user name</div>
+    <input type="text">
+
+    <div>password</div>
+    <input type="password" name="sandi" id="password">
+    <button>summit</button>
+    <input type="button"  value="kirim"><br>
+
+    <input type="radio" name="gender" value="laki-laki"> <span> laki-laki</span><br>
+    <input type="radio" name="gender" value="perempuan"><span> perempuan </span><br>
+
+    <span>pilih makanan kesukaan</span><br>
+    <input type="checkbox" name="bakbar" value="nasi bakso bakar">
+    <label for="foe">bakbar</label><br>
+    <input type="checkbox" name="nasgor" value="nasi gaoreng">
+    <label for="">nasgor</label><br>
+    <textarea name="alamat" id="" cols="30" rows="10">masukkan alamat</textarea><br>
+
+    <span>pilih film kesukaan</span><br>
+    <select name="film">
+        <option value="action">action</option>
+        <option value="romansa"romansa></option>
+        <option value="romansa">romansa comedy</option>
+    
+
+        <button type="reset"></button>
+        <input type="date" name="tanggal" id="tanggal">
+</form>
+
+
+
+
+</body>
+</html>
+
     </body>
     </html>
